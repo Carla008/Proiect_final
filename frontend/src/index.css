@@ -1,0 +1,129 @@
+body{
+
+  background-color: rgb(18, 133, 241);
+  font-family:times;
+
+
+}
+
+
+div {
+  width: 9000px;
+  height: 9000px;
+  background: transparent;
+  transition: width 2s;
+}
+
+h1{
+
+color:	black;
+font-size: 20 px;
+font-family:times;
+font-variant: small-caps;
+
+
+}
+h2{
+
+color: black;
+font-family:times;
+font-size: 40px;
+
+}
+
+h3{
+ 
+color: red;
+font-size: 20px;
+font-family:times;
+font-variant: small-caps;
+
+}
+
+
+input[type=text] {
+  width: 300px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  margin-right:2000px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+input[type=password] {
+  width: 300px;
+  padding: 10px 15px;
+  margin: 20px 0;
+ box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 40px;
+  
+}
+input[type=submit] {
+  width:150px;
+  padding: 10px 22px;
+  position: absolute;
+  left: 70px;
+  border: 2px solid white;
+  border-radius: 40px;
+  background-color: gray;
+}
+
+input[type= number] {
+  width: 300px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  margin-left:20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 40px;;
+}
+
+input[type= date] {
+  width: 300px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  margin-left:20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 40px;;
+}
+
+input[type=text]:focus {
+  border: 3px red;
+}
+input[type=password]:focus {
+  border: 3px red;
+}
+   li a{
+    color: green;
+	  text-decoration: none;
+    padding:7px;
+   }
+li a:hover {
+    background-color: green;
+    color:black;}
+ul {
+  list-style-type:none;
+}
+.horizontal_navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.horizontal_navbar li{
+  float: left;
+}
+.horizontal_navbar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.horizontal_navbar li a:hover{
+  background-color: gray;
+}
+
